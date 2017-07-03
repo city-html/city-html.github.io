@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #Fafafa;
+ }
+}
+ #wrapper {
+	max-width: 960px;
+	margin: auto;
+}
+header{
+	 background-color: #000000;
+max-height:100px;
+	margin: auto;
+	width: 100%;
+}
+h3{
+	
+	color:#000;
+}
+.pt{
+	text-align: right;
+}
+ #header {
+ 	 max-height:100px;
+	margin: auto;
+	width: 960px;;
+ }
+ 
+#tab18{
+	background: url(img/flikr-iphone2.jpg);
+}
+table tr {
+	margin: 0;
+	padding: 0;
+}
+
+table td {
+	list-style-position: inside;
+	font: 14px 'Roboto Light', sans-serif;
+	padding: 10px;
+   color:#fff; 
+}
+
+.top-menu td {
+	display: inline-block;
+	padding: 10px 30px;
+	margin: 0;
+}
+
+.top-menu td.active {
+	background: #29c5e6;
+	color: #fff;
+}
+
+.top-menu a {
+	color: #b2b2b2;
+}
+.container {
+		background-repeat: no-repeat;
+		background-position: center;
+}
+.container h1, h2{
+	color:#fbe027;
+	font-size: 4em;
+	font-family:"Roboto" ; 
+	width		: 100%;
+	position: absolute;
+	top:100px;
+}
+
+.bl2 td {
+	max-width: 960px;
+	color:#ffd14b;
+	font-size: 18pt;
+    padding: 20px; /* Поля вокруг текста */ 
+   }
+ .bl3 {
+ 	
+	margin: auto;
+	align-content: center;
+}
+ }
+#tab2, #tab3 {position: fixed; }
+
+.menu1 > a,
+.menu1 #tab2:target ~ a:nth-of-type(1),
+.menu1 #tab3:target ~ a:nth-of-type(1),
+.menu1 > div { padding: 15px; border: 0px solid #aaa; }
+
+.menu1 > a { line-height: 42px; background: #fff; text-decoration: none; }
+
+#tab2,
+#tab3,
+.menu1 > div,
+.menu1 #tab2:target ~ div:nth-of-type(1),
+.menu1 #tab3:target ~ div:nth-of-type(1) {display: none; }
+
+.menu1 > div:nth-of-type(1),
+.menu1 #tab2:target ~ div:nth-of-type(2),
+.menu1 #tab3:target ~ div:nth-of-type(3) { display: block; }
+
+.menu1 > a:nth-of-type(1),
+.menu1 #tab2:target ~ a:nth-of-type(2),
+.menu1 #tab3:target ~ a:nth-of-type(3) { border-bottom: 0px solid #fff; }
+
+
+
+footer{
+
+	margin: auto;
+	background-color: #000;
+}
+footer table{
+	background-image: #000;max-width: 960px;
+}
+#TB1{
+	list-style-position: inside;
+	font: 14px 'Roboto Light', sans-serif;
+	padding: 10px;
+   color:#000; 
+}
+.form{
+	background-image:  url(img/flikr-iphone2.jpg);
+	min-height: 350px;
+	text-align: center;
+
+background-color: white;
+opacity: 0.8;
+font-size: 2em;
+}
+#form{
+	line-height: -20px;
+}
+.knopka01 {
+  display: inline-block;
+  width: 120px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 1px rgba(255,255,255,.2), 0 -1px rgba(0,0,0,.8);
+  outline: none;
+  border: none;
+  border-radius: 100px;
+  background: rgb(28,107,114) radial-gradient(150% 100% at 50% 5px, rgba(255,255,255,.2), rgba(0,0,0,0));
+  box-shadow: inset rgba(0,0,0,.6) 0 -2px 5px, inset rgba(252,255,255,.7) 0 2px 5px, rgba(0,0,0,.8) 0 2px 5px -1px;
+  color: rgb(0,79,86);
+  user-select: none;
+} 
+.knopka01:hover {
+  color: rgb(0,59,66);
+  cursor: pointer;
+}
+.knopka01:active {
+  padding-bottom: 1px;
+  box-shadow:
+   inset rgba(0,0,0,1) 0 1px 3px,
+   inset rgba(0,0,0,.6) 0 -2px 5px,
+   inset rgba(252,255,255,.7) 0 2px 5px,
+   0 1px rgba(255,255,255,.08);
+  color: rgb(128,207,214);
+}
+a{
+	text-decoration: none;
+	
+}
